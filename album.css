@@ -46,7 +46,14 @@ footer p {
   background-color: #f8f9fa;
   border: none;
 }
+h2.card-title {
+  font-size: 1rem;
+}
 .img_area {
+  border-radius: 16px;
+}
+.img_area img {
+  width: 100%;
   border-radius: 16px;
 }
 /* form design */
@@ -144,3 +151,36 @@ button.f_btn:hover{
   xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(230, 0, 35, 1)'
   stroke-width='3' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 } */
+
+/*index.php*/
+.text-muted {
+  white-space: nowrap;
+}
+/*google material icons 縦位置揃え*/
+.material-icons {
+  display: inline-flex;
+  vertical-align: middle;
+}
+span.username_area {
+  padding-left: 3%;
+}
+/* mypage.php */
+.edit_btn_area {
+ color: #666;
+}
+.edit_btn_area a:link{
+ color: #666;
+}
+.edit_btn_area a:visited{
+    background: #fff;
+    color: #666;
+}
+.edit_btn_area a:hover{
+    color: #e60023;
+    transition:all 1.6s;
+    text-decoration: none;
+}
+/*google material icons アイコンサイズ*/
+.edit_btn_area span.material-icons {
+  font-size: 18px;
+}
