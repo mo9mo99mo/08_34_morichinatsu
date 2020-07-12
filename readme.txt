@@ -12,6 +12,10 @@ logout.php     ---ログアウトページ
 register.php   ---会員登録ページ
 register_act.php   ---会員登録処理ページ
 
+◇共通ファイル
+common.php  　　---共通処理ページ
+header.php  　　---共通ヘッダーページ
+
 
 ◇その他ファイル
 album.css  ----レイアウト編集用cssファイル

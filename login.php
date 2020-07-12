@@ -47,7 +47,7 @@ $sql = 'SELECT * FROM 06kadai_table';
 
 <body>
     <!--共通ヘッダー読込-->
-    <?php include('header.php'); ?>
+    <?php include('functions/header.php'); ?>
     <main role="main">
         <section class="jumbotron text-center" id="login">
             <div class="container">

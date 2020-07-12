@@ -14,7 +14,6 @@ include('functions/common.php');
 $pdo = connect_db();
 // データ取得SQL作成
 //ユーザー情報と投稿内容を紐付
-//$sql = 'SELECT * FROM users_table,posts_table';
 $sql = 'SELECT user.id, user.username, post.title, post.honbun, post.hizuke, post.img_file FROM 
 users_table user, posts_table post WHERE user.id = post.user_id ORDER BY user.id DESC';
 
@@ -71,12 +70,11 @@ if ($status == false) {
 
 <body>
     <!--共通ヘッダー読込-->
-    <?php include('header.php'); ?>
+    <?php include('functions/header.php'); ?>
 
     <main role="main">
         <div class="album py-5 bg-light">
             <div class="container">
-
                 <div class="row">
                     <?php foreach ($result as $record) : ?>
                         <div class="col-md-4">
@@ -97,13 +95,6 @@ if ($status == false) {
                             </div>
                         </div>
                     <?php endforeach ?>
-
-
-
-
-
-
-
                 </div>
             </div>
         </div>

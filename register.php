@@ -76,7 +76,7 @@ $pdo = connect_db();
 
 <body>
     <!--共通ヘッダー読込-->
-    <?php include('header.php'); ?>
+    <?php include('functions/header.php'); ?>
 
     <!-- ここからユーザー登録フォーム -->
     <main role="main">

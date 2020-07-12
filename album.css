@@ -184,3 +184,35 @@ span.username_area {
 .edit_btn_area span.material-icons {
   font-size: 18px;
 }
+/*fixed post button */
+aside div.fixed_btn_block {
+    position: fixed;
+    right: 16px;
+    bottom: 56px;
+    z-index: 10;
+}
+.fixed_btn {
+    display: inline-block;
+    height:56px;
+    width: 56px;
+    line-height: 56px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    transition: .4s;
+    filter: drop-shadow(3px 2px 2px rgba(0,0,0,0.2));
+}
+.fixed_btn span.material-icons{
+    font-size: 2.2rem;
+    line-height: 56px;
+}
+a.fixed_btn {
+    color: #333;
+}
+a.fixed_btn:visited {
+    color: #333;
+}
+a.fixed_btn:hover {
+    background: #e60023;
+    color: #fff;
+}
